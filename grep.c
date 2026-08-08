@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
 	
-	char buffer[100];
+	char buffer[1024];
 	FILE* file;
 
 	file = fopen(argv[1], "rb");
